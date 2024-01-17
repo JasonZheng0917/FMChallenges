@@ -51,6 +51,7 @@ const filteredChallenges = computed(() => {
       </section>
     </section>
     <nav id="filter-navbar">
+      <span class="spanSticky">My Challengs</span>
       <span>
         <input
           type="text"
@@ -218,6 +219,9 @@ footer a {
   color: #fff;
   opacity: 0.8;
 }
+.spanSticky {
+  display: none;
+}
 @media screen and (max-width: 1200px) {
   #hero-section {
     flex-direction: column-reverse;
@@ -247,6 +251,7 @@ footer a {
   }
   #filter-navbar > span:first-child {
     border: none;
+    display: block;
   }
   #filter-navbar > span:not(:first-child) {
     display: none;
