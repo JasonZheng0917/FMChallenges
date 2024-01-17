@@ -1,28 +1,26 @@
-name: Deploy
+name: deploy
 
 on:
   push:
-    branches: [main]
+    branches:
+      - master
   workflow_dispatch:
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@v3
+      
+      - name: Install & Build # 執行指令
+        run: |
+          npm install
+          npm run build 
+          
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@releases/v4
         with:
-          node-version: 16
-          cache: npm
-      - run: npm install
-      - name: Build
-        run: npm run build
-
-      - name: Deploy to GitHub Pages
-        uses: crazy-max/ghaction-github-pages@v2
-        with:
-          target_branch: gh-pages
-          build_dir: /dist
-        env : 
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }} # Settings > Secret 建立的 ACCESS_TOKEN，推同個 repo 的話可以不需要
+          BRANCH: gh-pages # deploy 到 gh-pages 這個分支
+          FOLDER: dist # build 後的資料夾
