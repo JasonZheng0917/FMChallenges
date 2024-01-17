@@ -10,7 +10,7 @@ export const useChallengeStore = defineStore("challenge", {
         source:
           "https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam",
         route: "/faq-accordion-card",
-        screenshot: "/Screenshots/faq-accordion-card-desktop.png",
+        screenshot: "/FMChallenges/Screenshots/faq-accordion-card-desktop.png",
       },
       {
         title: "Four Card Feature Section",
@@ -19,7 +19,7 @@ export const useChallengeStore = defineStore("challenge", {
         source:
           "https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK",
         route: "/four-card-feature",
-        screenshot: "/Screenshots/four-card-feature-desktop.png",
+        screenshot: "/FMChallenges/Screenshots/four-card-feature-desktop.png",
       },
       {
         title: "Social Media Dashboard with Theme Switcher",
@@ -28,7 +28,7 @@ export const useChallengeStore = defineStore("challenge", {
         source:
           "https://www.frontendmentor.io/challenges/social-media-dashboard-with-theme-switcher-6oY8ozp_H",
         route: "/social-media-dashboard",
-        screenshot: "/Screenshots/social-media-dashboard-desktop.png",
+        screenshot: "/FMChallenges/Screenshots/social-media-dashboard-desktop.png",
       },
       {
         title: "Intro Component with Sign-Up Form",
@@ -37,7 +37,7 @@ export const useChallengeStore = defineStore("challenge", {
         source:
           "https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1",
         route: "/intro-sign-up",
-        screenshot: "/Screenshots/intro-sign-up-desktop.png",
+        screenshot: "/FMChallenges/Screenshots/intro-sign-up-desktop.png",
       },
       {
         title: "Single Price Grid Component",
@@ -46,7 +46,7 @@ export const useChallengeStore = defineStore("challenge", {
         source:
           "https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc",
         route: "/single-price-grid",
-        screenshot: "/Screenshots/single-price-grid-desktop.png",
+        screenshot: "/FMChallenges/Screenshots/single-price-grid-desktop.png",
       },
       {
         title: "Data Storage Component",
@@ -55,7 +55,7 @@ export const useChallengeStore = defineStore("challenge", {
         source:
           "https://www.frontendmentor.io/challenges/fylo-data-storage-component-1dZPRbV5n",
         route: "/data-storage",
-        screenshot: "/Screenshots/data-storage-desktop.png",
+        screenshot: "/FMChallenges/Screenshots/data-storage-desktop.png",
       },
       {
         title: "Article Preview Component",
@@ -64,7 +64,7 @@ export const useChallengeStore = defineStore("challenge", {
         source:
           "https://www.frontendmentor.io/challenges/article-preview-component-dYBN_pYFT",
         route: "/article-preview",
-        screenshot: "/Screenshots/article-preview-desktop.png",
+        screenshot: "/FMChallenges/Screenshots/article-preview-desktop.png",
       },
       {
         title: "Social Proof Section",
@@ -73,7 +73,7 @@ export const useChallengeStore = defineStore("challenge", {
         source:
           "https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA",
         route: "/social-proof-section",
-        screenshot: "/Screenshots/social-proof-section-desktop.png",
+        screenshot: "/FMChallenges/Screenshots/social-proof-section-desktop.png",
       },
       {
         title: "AdviceGeneratorApp",
@@ -82,7 +82,7 @@ export const useChallengeStore = defineStore("challenge", {
         source:
           "https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db",
         route: "/advice-generator",
-        screenshot: "/Screenshots/advice-generator-desktop.png",
+        screenshot: "/FMChallenges/Screenshots/advice-generator-desktop.png",
       },
     ],
   }),
