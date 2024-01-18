@@ -57,7 +57,7 @@ const filteredChallenges = computed(() => {
           type="text"
           v-model="filterByLevel"
           list="filter-by-level"
-          placeholder="Level選擇test"
+          placeholder="Level選擇"
         />
         <datalist id="filter-by-level">
           <option>初級</option>
