@@ -32,48 +32,6 @@ const router = createRouter({
       meta: { title: "Social Media Dashboard" },
     },
     {
-      path: "/intro-sign-up",
-      name: "Intro-Sign-Up",
-      component: () =>
-        import("@/views/IntroCompWithSignUp/IntroCompWithSignUpView.vue"),
-      meta: { title: "Intro with Sign Up" },
-    },
-    {
-      path: "/single-price-grid",
-      name: "Single-Price-Grid",
-      component: () =>
-        import("@/views/SinglePriceGrid/SinglePriceGridView.vue"),
-      meta: { title: "Single Price Grid" },
-    },
-    {
-      path: "/data-storage",
-      name: "Data-Storage",
-      component: () =>
-        import("@/views/DataStorageComponent/DataStorageView.vue"),
-      meta: { title: "Data Storage" },
-    },
-    {
-      path: "/article-preview",
-      name: "Article-Preview",
-      component: () =>
-        import("@/views/ArticlePreviewComponent/ArticlePreviewView.vue"),
-      meta: { title: "Article Preview" },
-    },
-    {
-      path: "/social-proof-section",
-      name: "Social-Proof-Section",
-      component: () =>
-        import("@/views/SocialProofSection/SocialProofSectionView.vue"),
-      meta: { title: "Social Proof Section" },
-    },
-    {
-      path: "/advice-generator",
-      name: "Advice-Generator-App",
-      component: () =>
-        import("@/views/AdviceGeneratorApp/AdviceGeneratorView.vue"),
-      meta: { title: "Advice Generator" },
-    },
-    {
       path: "/:catchAll(.*)",
       redirect: "/",
     },
