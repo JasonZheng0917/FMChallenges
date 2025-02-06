@@ -42,7 +42,7 @@ function themeSwitch() {
       <div class="card card-f">
         <div class="title">
           <img src="./assets/icon-facebook.svg" alt="Facebook-logo" />
-          <p>@jacoblindev</p>
+          <p>@jasonZheng</p>
         </div>
         <div class="numbers">
           <h2>1984</h2>
@@ -56,7 +56,7 @@ function themeSwitch() {
       <div class="card card-t">
         <div class="title">
           <img src="./assets/icon-twitter.svg" alt="Twitter-logo" />
-          <p>@jacoblindev</p>
+          <p>@jasonZheng</p>
         </div>
         <div class="numbers">
           <h2>1088</h2>
@@ -70,7 +70,7 @@ function themeSwitch() {
       <div class="card card-i">
         <div class="title">
           <img src="./assets/icon-instagram.svg" alt="Instagram-logo" />
-          <p>@jacoblindev</p>
+          <p>@jasonZheng</p>
         </div>
         <div class="numbers">
           <h2>11k</h2>
@@ -84,7 +84,7 @@ function themeSwitch() {
       <div class="card card-y">
         <div class="title">
           <img src="./assets/icon-youtube.svg" alt="YouTube-logo" />
-          <p>@jacoblindev</p>
+          <p>@jasonZheng</p>
         </div>
         <div class="numbers">
           <h2>8888</h2>
